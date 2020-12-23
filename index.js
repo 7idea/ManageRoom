@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 const fetch = require("node-fetch")
-const db = require('./user.json');
-const fs = require('fs');
 const { response, json } = require('express');
 const moment = require('moment')
 
